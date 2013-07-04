@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejemplo de Formulario</title>
+	</head>
+	<body>
+	    <h1>Ejemplo de formulario</h1>
+	    <form action="#" method="get">
+	        <fieldset>
+	            <legend>Formulario</legend>
+	            <dl>
+	                <dt>Label</dt>
+	                <dd>
+	                    <label>Nombre: </label>
+	                </dd>
+	                <dt>Elemento text</dt>
+	                <dd>
+	                    <input type="text" name="name">
+	                </dd>
+	                <dt>Elemento password</dt>
+	                <dd>
+	                    <input type="password"/>
+	                </dd>
+	                <dt>Checkbox</dt>
+	                <dd>
+	                    <input type="checkbox" name="hobby" value="1">Nadar
+	                    <input type="checkbox" name="hobby" value="2">Bailar
+	                </dd>
+	                <dt>Radio button</dt>
+	                <dd>
+	                    <input type="radio" name="gender" value="1">Hombre
+	                    <input type="radio" name="gender" value="2">Mujer
+	                </dd>
+	                <dt>Elemento file</dt>
+	                <dd>
+	                    <input type="file" name="filename">
+	                </dd>
+	                <dt>Elemento Hidden</dt>
+	                <dd>
+	                    <input type="hidden" name="mostrar" value="oculto">
+	                </dd>
+	                <dt>Select</dt>
+	                <dd>
+	                    <select>
+			                <option value="">--Seleccionar--</option>
+			                <option value="1">México</option>
+			                <option value="2">Estados Unidos</option>
+			                <option value="3">Colombia</option>
+			                <option value="4">Venezuela</option>
+			                <option value="5">Peru</option>
+			                <option value="6">Canada</option>
+			            </select>
+	                </dd>
+	                <dt>Select multiple</dt>
+	                <dd>
+	                    <select name="country" multiple>
+							<optgroup label="Europa">
+								<option value="1">España</option>
+								<option value="2">Portugal</option>
+								<option value="3">Francia</option>
+	                            <option value="4">Alemania</option>
+							</optgroup>
+							<optgroup label="America">
+								<option value="5">México</option>
+								<option value="6">Estados Unidos</option>
+								<option value="7">Canada</option>
+	                            <option value="8">Brasil</option>
+							</optgroup>
+						</select>
+	                </dd>
+	                <dt>Textarea</dt>
+	                <dd>
+	                    <textarea rows="5" cols="5"></textarea>
+	                </dd>
+	                <dt>Botón</dt>
+	                <dd>
+	                    <input type="button" value="Boton">
+	                </dd>
+	                <dt>Submit</dt>
+	                <dd>
+	                    <input type="submit" value="Enviar">
+	                </dd>
+	            </dl>
+	        </fieldset>
+	    </form>
+	</body>
+</html>
