@@ -18,18 +18,18 @@
 	                <dt>Elemento password</dt>
 	                <dd>
 	                   <label>Password: </label>
-	                    <input type="password"/>
+	                    <input type="password" name="password">
 	                </dd>
 	                <dt>Checkbox</dt>
 	                <dd>
 	                   <label>Hobby: </label>
-	                    <input type="checkbox" name="hobby" value="1">Nadar
+	                    <input type="checkbox" name="hobby" value="1" checked>Nadar
 	                    <input type="checkbox" name="hobby" value="2">Bailar
 	                </dd>
 	                <dt>Radio button</dt>
 	                <dd>
 	                   <label>Sexo: </label>
-	                    <input type="radio" name="gender" value="1">Hombre
+	                    <input type="radio" name="gender" value="1" checked>Hombre
 	                    <input type="radio" name="gender" value="2">Mujer
 	                </dd>
 	                <dt>Elemento file</dt>
@@ -39,35 +39,35 @@
 	                </dd>
 	                <dt>Elemento Hidden</dt>
 	                <dd>
-	                    <input type="hidden" name="mostrar" value="oculto">
+	                    <input type="hidden" name="hidden" value="oculto">
 	                </dd>
 	                <dt>Select</dt>
 	                <dd>
-	                   <label>Pais: </label>
-                           <select>
+	                   <label>País: </label>
+                           <select name="country">
                                <option value="">--Seleccionar--</option>
-                               <option value="1">México</option>
+                               <option value="1" selected>México</option>
                                <option value="2">Estados Unidos</option>
                                <option value="3">Colombia</option>
                                <option value="4">Venezuela</option>
-                               <option value="5">Peru</option>
-                               <option value="6">Canada</option>
+                               <option value="5">Perú</option>
+                               <option value="6">Canadá</option>
                            </select>
 	                </dd>
-	                <dt>Select multiple</dt>
+	                <dt>Select múltiple</dt>
 	                <dd>
-	                   <label>Pais: </label>
-                           <select name="country" multiple>
+	                   <label>País: </label>
+                           <select name="country-by-continent" multiple>
                                <optgroup label="Europa">
                                    <option value="1">España</option>
                                    <option value="2">Portugal</option>
                                    <option value="3">Francia</option>
                                    <option value="4">Alemania</option>
                                </optgroup>
-                               <optgroup label="America">
-                                   <option value="5">México</option>
+                               <optgroup label="América">
+                                   <option value="5" selected>México</option>
                                    <option value="6">Estados Unidos</option>
-                                   <option value="7">Canada</option>
+                                   <option value="7">Canadá</option>
                                    <option value="8">Brasil</option>
                                </optgroup>
                             </select>
@@ -75,15 +75,15 @@
 	                <dt>Textarea</dt>
 	                <dd>
 	                   <label>Comentario: </label>
-	                    <textarea rows="5" cols="5"></textarea>
+	                   <textarea rows="5" cols="45" name="comment"></textarea>
 	                </dd>
 	                <dt>Botón</dt>
 	                <dd>
-	                    <input type="button" value="Boton">
+	                    <input type="button" name="button" value="Boton">
 	                </dd>
 	                <dt>Submit</dt>
 	                <dd>
-	                    <input type="submit" value="Enviar">
+	                    <input type="submit" name="submit" value="Enviar">
 	                </dd>
 	            </dl>
 	        </fieldset>
